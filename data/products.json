@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "677f29b073556656fa427426",
+    "name": "Flatscreen TV",
+    "description": "50-inch 4K Ultra HD Smart TV with vibrant colors and streaming capabilities.",
+    "price": 499.99,
+    "category": "Electronics",
+    "stock": 50,
+    "images": ["tv-product.jpg"]
+  },
+  {
+    "_id": "677f2b34f69f08b8e4cf507c",
+    "name": "Wireless Headphones",
+    "description": "Noise-canceling over-ear headphones with 40 hours of battery life.",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "id": "677f2b4e13499060281cd698",
+    "name": "Mens Winter Jacket",
+    "description": "Durable and insulated winter jacket perfect for outdoor adventures.",
+    "price": 89.99,
+    "category": "Clothing",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2b6507aaaaffd28e402f",
+    "name": "Womens's Yoga Pants",
+    "description": "Stretchable and breathable yoga pants for comfort during workouts.",
+    "price": 19.99,
+    "category": "Clothing",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2b7cca593e7eaaa49a7b",
+    "name": "Sciene Fiction Novel",
+    "description": "Award-winning sci-fi novel filled with thrilling adventures across the galaxy.",
+    "price": 9.99,
+    "category": "Books",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2b8d7c05e31d06cfad35",
+    "name": "Self-Help Guide",
+    "description": "Motivational book to help you unlock your potential and achieve success.",
+    "price": 11.99,
+    "category": "Books",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2b9b7f424c2e399b1e8b",
+    "name": "Luxury Face Cream",
+    "description": "Anti-aging face cream with natural ingredients for radiant skin.",
+    "price": 59.99,
+    "category": "Beauty",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2bb08dfe0544ea617b8e",
+    "name": "Lipstick",
+    "description": "Vegan red vibrant lipstick.",
+    "price": 9.99,
+    "category": "Beauty",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2bc1fa2900400b9e37f7",
+    "name": "Modern Floor Lamp",
+    "description": "Sleek and stylish floor lamp to brighten up any room.",
+    "price": 69.99,
+    "category": "Home",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2bcf8ed59af3e5536b00",
+    "name": "Memory Foam Pillow",
+    "description": "Premium memory foam pillow for ultimate comfort and support.",
+    "price": 39.99,
+    "category": "Home",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2bdd6cf7d40266338b0c",
+    "name": "Fitness Tracker",
+    "description": "Smart fitness tracker with heart rate monitoring and step counting.",
+    "price": 49.99,
+    "category": "Sports",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2bf0cf088fe9cce33a82",
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat with extra cushioning for added comfort.",
+    "price": 14.99,
+    "category": "Sports",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2c028253bae86997128a",
+    "name": "Multi-Tool Kit",
+    "description": "Compact multi-tool kit with 15 functions for everyday tasks.",
+    "price": 19.99,
+    "category": "Other",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2c117432c43126369eb8",
+    "name": "Travel Backpack",
+    "description": "Lightweight and spacious backpack for traveling and daily use.",
+    "price": 39.99,
+    "category": "Other",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2c1f67f6fdb20a2e74eb",
+    "name": "Smart Thermostat",
+    "description": "Smart thermostat that lets you control your home's temperature from your smartphone.",
+    "price": 99.99,
+    "category": "Home",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f2c329f7b1cc468e273f0",
+    "name": "Running Shoes",
+    "description": "Lightweight and comfortable running shoes designed for maximum performance.",
+    "price": 59.99,
+    "category": "Sports",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f351b2e9ff9a95d75d01e",
+    "name": "Leather Jacket",
+    "description": "Stylish and durable leather jacket perfect for all seasons.",
+    "price": 199.99,
+    "category": "Clothing",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f352b98427322373dbbe4",
+    "name": "Blender",
+    "description": "High-speed blender for smoothies, soups, and more with multiple speed settings.",
+    "price": 69.99,
+    "category": "Home",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f353fc7f8ada816987cd5",
+    "name": "Aromatherapy Diffuser",
+    "description": "sleek and quiet diffuser that fills your space with soothing essential oils.",
+    "price": 29.99,
+    "category": "Beauty",
+    "stock": 50,
+    "images": [""]
+  },
+  {
+    "_id": "677f3551fb37480da285a257",
+    "name": "Wireless Keyboard",
+    "description": "Compact wireless keyboard with ergonomic design and long-lasting battery.",
+    "price": 39.99,
+    "category": "Electronics",
+    "stock": 50,
+    "images": [""]
+  }
+]
