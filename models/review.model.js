@@ -1,33 +1,36 @@
 import mongoose from 'mongoose';
-import Product from './product.model';
-import User from './user.model';
+import Product from './product.model.js';
+import User from './user.model.js';
 
-const reviewSchema = new mongoose.Schema({
-  review: {
-    type: String,
-    required: [true, 'Review cannot be empty'],
+const reviewSchema = new mongoose.Schema(
+  {
+    review: {
+      type: String,
+      required: [true, 'Review cannot be empty'],
+    },
+    rating: {
+      type: Number,
+      min: 1,
+      max: 5,
+      required: [true, 'Rating is required'],
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now(),
+    },
+    product: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Product',
+      required: [true, 'Review must belong to a product'],
+    },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: [true, 'Review must belong to a user'],
+    },
   },
-  rating: {
-    type: Number,
-    min: 1,
-    max: 5,
-    required: [true, 'Rating is required'],
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now(),
-  },
-  product: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'Product',
-    required: [true, 'Review must belong to a product'],
-  },
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'User',
-    required: [true, 'Review must belong to a user'],
-  },
-});
+  { timestamps: true }
+);
 
 // Prevent duplicate reviews
 reviewSchema.index({ product: 1, user: 1 }, { unique: true });
