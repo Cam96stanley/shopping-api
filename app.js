@@ -8,21 +8,21 @@ import productRoute from './routes/product.route.js';
 
 const app = express();
 
-// Middleware
+/////////////// Middleware
 app.use('/assets', express.static('public/assets'));
 app.use(express.urlencoded({ extended: false }));
 app.use(json());
 dotenv.config();
-
-// Routes
-app.use('/api/products', productRoute);
-
-// Error handling middleware
+/////////////// Error handling middleware
 app.use((err, req, res, next) => {
   console.log(err.stack);
   res.status(500).json({ message: err.message });
 });
 
+/////////////// Routes
+app.use('/api/products', productRoute);
+
+/////////////// Server logic
 const port = process.env.PORT || 8000;
 const mongoUrl = process.env.MONGO_URL;
 
